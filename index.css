@@ -1,6 +1,7 @@
 body{
     background-color: #0652DD;
     font-size: 20px;
+    margin: 0px;
 }
 
 nav{
@@ -73,3 +74,32 @@ nav li{
     /* width: 550px;
     height: 500px; */
 }
+
+.blog-articles{
+background-color: #d2dae2;
+display: flex;
+justify-content: space-around;
+}
+
+.blog-1 {
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    padding: 40px;
+}
+
+.blog-2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    background-color: white;
+    margin-left: 20px;
+    padding:40px;
+}
+
+.blog-articles a{
+    text-decoration: none;
+}
+
