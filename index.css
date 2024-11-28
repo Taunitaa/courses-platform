@@ -75,6 +75,10 @@ nav li{
     height: 500px; */
 }
 
+.big-image img{
+    border-radius: 10px;
+}
+
 .blog-articles{
 background-color: #d2dae2;
 display: flex;
@@ -251,13 +255,79 @@ footer{
 
   .contact-us{
     color: white;
+    padding: 100px;
   }
 
-  .subscribeButton {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    cursor: pointer;
-    background-color: white;
+  .contact-us p{
+    margin-bottom: 50px;
+  }
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-right: 250px;
+  }
+
+  .contact-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  1.125rem;
+  }
+
+  input {
+    background-color: #0652DD;
+    color: white;
+    border: none; 
+    border-bottom: 2px solid #4b4b4b;
+    outline: none;
     font-weight: bold;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-bottom: 70px;
+    font-size:  1.125rem;
+
+}
+
+input::placeholder {
+    color: white;
+  }
+
+  input:hover{
+    border-bottom: 2px solid white;
+  }
+
+.send-message-button{
+    border-radius: 230px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size:  1.125rem;
+
+}
+
+.send-message-button:hover{
+    background-color:#ffd32a;
+    color: #0652DD;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:  1.125rem;
+
+}
+
+.courses-image{
+    margin-top: 25px;
+}
+
+.courses-image img{
+    border-radius: 10px;
 }
