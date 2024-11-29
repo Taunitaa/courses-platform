@@ -127,6 +127,11 @@ justify-content: space-around;
     margin-left: 40px;
 }
 
+.type-of-courses a{
+    text-decoration: none;
+    padding: 20px;
+}
+
 .course-1{
     background-color:#0652DD;
     color: white;
@@ -136,7 +141,12 @@ justify-content: space-around;
     align-items: center;
     border: 1px solid black;
     padding: 10px; 
-    margin-right: 30px;   
+    margin-right: 30px; 
+    width: 20%;  
+}
+
+.course-1 a{
+    color: white;
 }
 
 .course-2{
@@ -149,6 +159,7 @@ justify-content: space-around;
     border: 1px solid black;
     padding: 10px; 
     margin-right: 30px;   
+    width: 20%;  
 
 }
 
@@ -188,6 +199,10 @@ justify-content: space-around;
     cursor: pointer;
 }
 
+.course-photo img{
+    border-radius: 50px;
+}
+
 .description{
     background-color: #d2dae2;
     display: flex;
@@ -198,6 +213,13 @@ justify-content: space-around;
     color:blue;
 }
 
+.students{
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-top: 45px;
+    width: 40%;
+}
+
 .description-1{
  background-color:#0652DD;
  color: white;
@@ -206,31 +228,47 @@ justify-content: space-around;
  padding: 20px;
  margin-top: 100px;
  margin-bottom: 100px;
+ font-size: 2.5rem;
 }
 
 .student-1{
     background-color: white;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 53px;
+    padding-right: 90px;
+    padding-left: 50px;
 }
 
 .student-2{
     background-color: white;
     padding: 10px;
-    margin-bottom: 60px;
-
+    margin-bottom: 100px;
+    margin-top: 60px;
+    padding-right: 90px;
+    padding-left: 50px;
 }
 
 .description-2{
     background-color:#a4b0be;
+    padding: 29px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    width: 30%;
 }
 
 .description-2 span{
     background-color:#0652DD;
+    padding: 10px;
 }
 
 .text{
     background-color:#0652DD;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 90px;
+    font-size: 1.2rem;
 }
 
 footer{
@@ -239,6 +277,32 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+.company{
+    display: flex;
+    flex-direction: column;
+}
+
+.company a{
+    padding: 10px;
+    text-decoration: none;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.product a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+/* a:visited {
+    color: #0652DD;
+  } */
 
 .container {
     position: relative;
@@ -330,4 +394,25 @@ input::placeholder {
 
 .courses-image img{
     border-radius: 10px;
+}
+
+.subscribe-section{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.subscribe-background{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe-photo img{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: space-between;
 }
