@@ -392,6 +392,9 @@ input::placeholder {
    bottom: 100px; 
    left: 390px;
    padding-bottom: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .input-container input{
