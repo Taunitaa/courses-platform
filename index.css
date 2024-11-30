@@ -330,16 +330,19 @@ input::placeholder {
     border: none;
     font-weight: bold;
     font-size:  1.125rem;
+    background-color: white;
+}
 
+.send-message-button img{
+  width: 40px;
 }
 
 .send-message-button:hover{
-    background-color:#ffd32a;
+    /* background-color:#ffd32a;
     color: #0652DD;
-    cursor: pointer;
     font-weight: bold;
-    font-size:  1.125rem;
-
+    font-size:  1.125rem; */
+    cursor: pointer;
 }
 
 .courses-image{
@@ -360,6 +363,8 @@ input::placeholder {
 .subscribe-background{
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 0;
 }
 
 .subscribe-text{
@@ -367,14 +372,51 @@ input::placeholder {
     margin-top: 100px;
 }
 
+.subscribe-text p{
+    line-height: 1;
+    font-size: larger;
+}
+
 .subscribe-photo img{
     width: 400px;
     border-radius: 10px;
 }
 
-.subscribe-form{
+.input-container{
     display: flex;
-    justify-content: space-between;
+   background-color: #d1ccc0;
+   padding: 20px;
+   width: 700px;
+   position: relative;
+   z-index: 1;
+   bottom: 100px; 
+   left: 390px;
+   padding-bottom: 20px;
+}
+
+.input-container input{
+    background-color: white;
+    height: 40px;
+    border: none;
+}
+
+.input-container span{
+    padding: 10px;
+    font-size: larger;
+}
+
+.input-container input::placeholder {
+    color: #999; 
+  }
+
+.subscribe-button{
+    width: 200px;
+    height: 42px;
+    background-color: #4b4b4b;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 footer{
