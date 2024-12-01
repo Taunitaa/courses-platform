@@ -379,7 +379,7 @@ input::placeholder {
 }
 
 .subscribe-photo img{
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -402,6 +402,7 @@ input::placeholder {
     background-color: white;
     height: 40px;
     border: none;
+    border-radius: 5px;
 }
 
 .input-container span{
@@ -470,6 +471,96 @@ a{
   }
 
   @media (max-width: 576px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nav-menu {
+        flex-direction: column;
+      }
+    
+      nav li {
+        margin-bottom: 10px;
+      }
+
+    .blog-articles {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .blog-1, .blog-2 {
+        width: 100%;
+        margin: 20px 0;
+      }
+
+    .subscribe-section {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .subscribe-background {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .subscribe-text {
+        width: 100%;
+        text-align: center;
+      }
+    
+      .subscribe-photo img {
+        width: 100%;
+      }
+    
+      .input-container {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+      }
+
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .form, .courses-image {
+        margin-bottom: 20px;
+      }
+    
+      form {
+        width: 100%;
+      }
+    
+      input {
+        width: 100%;
+      }
+
+      .description {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .students, .description-1, .description-2 {
+        width: 100%;
+        margin: 20px 0;
+      }
+    
+      .student-1, .student-2 {
+        margin: 20px 0;
+      }
+
+      .type-of-courses {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .course-1, .course-2 {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
     footer {
       flex-direction: column;
       align-items: center;
@@ -477,7 +568,7 @@ a{
     }
   
     .container {
-      display: none; /* Hide the vertical line */
+      display: none; 
     }
   
     .product, .company {
@@ -486,109 +577,21 @@ a{
   }
 
   @media (min-width: 577px) and (max-width: 767px) {
-    footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .container {
-      display: none; /* Hide the vertical line */
-    }
-  
-    .product, .company {
-      margin-bottom: 20px;
-    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nav-menu {
+        flex-direction: column;
+      }
+    
+      nav li {
+        margin-bottom: 10px;
+      }
+
   }
 
-  @media (max-width: 576px) {
-    .contact-form {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .form, .courses-image {
-      margin-bottom: 20px;
-    }
-  
-    form {
-      width: 100%;
-    }
-  
-    input {
-      width: 100%;
-    }
-  }
+ 
 
-  @media (min-width: 568px) and (max-width: 767px) {
-    .contact-form {
-      flex-direction: column;
-      align-items: center;
-    }
   
-    .form, .courses-image {
-      margin-bottom: 20px;
-    }
-  
-    form {
-      width: 100%;
-    }
-  
-    input {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 576px) {
-    .subscribe-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .subscribe-background {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .subscribe-text {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .subscribe-photo img {
-      width: 100%;
-    }
-  
-    .input-container {
-      width: 100%;
-      bottom: 0;
-      left: 0;
-    }
-  }
-
-  @media (min-width: 577px) and (max-width: 767px) {
-    .subscribe-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .subscribe-background {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .subscribe-text {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .subscribe-photo img {
-      width: 100%;
-    }
-  
-    .input-container {
-      width: 100%;
-      bottom: 0;
-      left: 0;
-    }
-  }
